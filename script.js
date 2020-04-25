@@ -77,9 +77,9 @@ let currentlyPlaying = true;
 
   const gameOver = (status) => {
     if (status === 'win') {
-    startButton.innerHTML = 'You win! Play again?';
+    startButton.innerHTML = 'You win!Want to Play again?';
   }else {
-  startButton.innerHTML = 'Game over! Play again?'
+  startButton.innerHTML = 'Game over!Want to Play again?'
 }
     currentlyPlaying = false;
   }
